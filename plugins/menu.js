@@ -51,9 +51,10 @@ const defaultMenu = {
 %readmore`.trimStart(),
   header: '╠>『%category』',
   body: '╠> %cmd %islimit %isPremium',
-  footer: '╚════════════════╝\n\n╔═══════════════╗',
-  after: `${global.namabot}
-*𝐏𝐫𝐨𝐣𝐞𝐜𝐭 ${global.ownername}*
+  footer: '╚════════════════╝\n\n╔════════════════╗',
+  after:  `${global.namabot}
+          *𝐏𝐫𝐨𝐣𝐞𝐜𝐭 : ©𝐒𝐢𝐨𝐧*
+╚════════════════╝
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
