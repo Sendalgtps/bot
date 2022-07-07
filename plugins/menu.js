@@ -160,7 +160,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     let url = `https://i.postimg.cc/nrMn3sMN/menu.jpg`
     conn.sendHydrated(m.chat, text.trim(), 'Sion', null, 'Soon', 'Web Sion', '', '', [
-      ['𝗚𝗥𝗨𝗣 𝗕𝗢𝗧', '/donasi'],
+      ['𝗗𝗢𝗡𝗔𝗦𝗜 𝗕𝗢𝗧', '/donasi'],
       ['𝗦𝗘𝗪𝗔 𝗕𝗢𝗧', '/sewa'],
       ['!𝗢𝗪𝗡𝗘𝗥!', '/owner']
     ], m)
