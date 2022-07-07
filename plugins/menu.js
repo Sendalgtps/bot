@@ -52,7 +52,7 @@ const defaultMenu = {
   header: '╠>『%category』',
   body: '╠> %cmd %islimit %isPremium',
   footer: '╚════════════════╝\n\n╔════════════════╗',
-  after:  `${global.namabot}
+          after: `${global.namabot}
           *𝐏𝐫𝐨𝐣𝐞𝐜𝐭 : ©𝐒𝐢𝐨𝐧*
 ╚════════════════╝
 `,
