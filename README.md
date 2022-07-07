@@ -1,12 +1,10 @@
 #Scnya Jangan Dijual!
 
 # Hapus Session.Data Untuk Mendapatkan Session Baru
-
-# Genti Owner Di Config.js
+ Setting Owner Dll Di Config.js
 
 # Jika Menemukan Bug/Ellor Maklumin Dulu
-
-# Disarankan Untuk Start Di Rdp
+ Disarankan Untuk Run Di Rdp/Termux
 
 # How To Run Termux
 
