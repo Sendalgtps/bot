@@ -131,7 +131,6 @@ async function connectionUpdate(update) {
   }
   if (global.db.data == null) await loadDatabase()
   console.log(JSON.stringify(update, null, 4))
-  if (update.receivedPendingNotifications) conn.sendMessage(`6282175575787@s.whatsapp.net`, {text: 'BERHASIL TERSAMBUNG' })
 }
 
 
