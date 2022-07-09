@@ -1,5 +1,5 @@
 let handler = async (m, { conn }) => {
-    conn.sendButtonImg(m.chat, ('https://api.zacros.my.id/asupan/japan'), wm, 'NEXT', '.cevanjapan', m)
+    conn.sendButtonImg(m.chat, ('https://api.zacros.my.id/asupan/japan'), 'NEXT', '.cevanjapan', m)
 }
 
 handler.help = ['cecanjapan']
