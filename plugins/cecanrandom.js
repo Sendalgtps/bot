@@ -9,7 +9,7 @@ let handler = async (m, { conn }) => {
     await conn.sendFile(m.chat, img, '', '✿𝗖𝗥𝗘𝗔𝗧𝗢𝗥➢Sion', m, 0, { thumbnail: await (await fetch(img)).buffer() })
 }
 handler.help = ['cecanrandom']
-handler.tags = ['asupan']
+handler.tags = ['cecan']
 handler.limit = 5
 handler.command = /^(cecanrandom)$/i
 
