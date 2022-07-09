@@ -3,7 +3,7 @@ let handler = async (m, { conn }) => {
 }
 
 handler.help = ['cecanvietnam']
-handler.tags = ['asupan']
+handler.tags = ['cecan']
 handler.command = /^(cecanvietnam)$/i
 handler.limit = 3
 
