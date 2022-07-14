@@ -33,7 +33,7 @@ let jadibot = jadbot[Math.floor(Math.random() * jadbot.length)]
 /* - - - - - - - Ini autoresponder - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-let regs = /(aku cinta kamu)/i
+    let regs = /(aku cinta kamu)/i
     let isCintaKamu = regs.exec(m.text)
     let cinmu = [
 '❤️',
@@ -86,7 +86,7 @@ let sayangkamuh = saymu[Math.floor(Math.random() * saymu.length)]
 '🥰',
 '😍'
 ]
-let loveyou = lovou[Math.floor(Math.random() * lovou.length)]
+    let loveyou = lovou[Math.floor(Math.random() * lovou.length)]
     if (isLoveYou && !m.fromMe) {
     let helloaine = fs.readFileSync('./mp3/PTT-20211218-WA0243.opus') 
     conn.sendMessage(m.chat, {
@@ -127,7 +127,7 @@ let assl = assal[Math.floor(Math.random() * assal.length)]
 /* - - - - - - - Ini autoresponder by sion - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
     
-   /* let hiai = /(hi|hii|hiii|hi aine|hii aine|hiii aine|hy|halo|hallo|helo|hello|hy aine|halo aine|hallo aine|helo aine|hello aine)/i
+    let hiai = /(hi|hii|hiii|hi aine|hii aine|hiii aine|hy|halo|hallo|helo|hello|hy aine|halo aine|hallo aine|helo aine|hello aine)/i
     let isAih = hiai.exec(m.text)
     let hiain = [
 '🥰',
