@@ -112,7 +112,7 @@ let sayangkamuh = saymu[Math.floor(Math.random() * saymu.length)]
 ]
 let assl = assal[Math.floor(Math.random() * assal.length)]
     if (isAss && !m.fromMe) {
-    let assalamualaikum = fs.readFileSync('./mp3/WhatsApp-Audio-2021-03-02-at-20.46.15.opus')
+    let assalamualaikum = fs.readFileSync('./mp3/waalaikumsalam.opus')
     conn.sendMessage(m.chat, {
         react: {
           text: `${assl}`,
@@ -122,7 +122,7 @@ let assl = assal[Math.floor(Math.random() * assal.length)]
     conn.sendFile(m.chat, assalamualaikum, '', '', m, true)
     }, 1000)
     }
-
+   
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - */
 /* - - - - - - - Ini autoresponder by sion - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -136,7 +136,7 @@ let assl = assal[Math.floor(Math.random() * assal.length)]
 ]
 let hiaine = hiain[Math.floor(Math.random() * hiain.length)]
     if (isAih && !m.fromMe) {
-    let helloaine = fs.readFileSync('./mp3/WhatsApp-Ptt-2021-07-14-at-18.12.33.opus') 
+    let helloaine = fs.readFileSync('./mp3/hai.opus') 
     conn.sendMessage(m.chat, {
         react: {
           text: `${hiaine}`,
